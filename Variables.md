@@ -22,30 +22,28 @@
 
 By default, most variable types in C are signed, meaning they can represent values from negative to positive. For example, a **char** variable can range from -128 to 127, and an **int** variable can range from -2147483648 to 2147483647. However, using the **unsigned** keyword allows you to represent only non-negative values. For instance, an **unsigned char** variable can range from 0 to 255.
 
-### How To Use Variables
-
-##### Declaration
+### Declaration
 
 Before using a variable, it needs to be declared. The declaration specifies the variable's name and its data type, informing the compiler about the type of data the variable will hold. For example:
 ```
 int age;
 ```
 
-##### Initialization
+### Initialization
 
 Initialization assigns an initial value to a variable at the time of declaration. It is optional but recommended to avoid using uninitialized variables. For example:
 ```
 int age = 25;
 ```
 
-##### Assignation
+### Assignation
 
 You can assign values to variables using the assignment operator (=). For example:
 ```
 age = 25;
 ```
 
-##### Reading and Writing
+### Reading and Writing
 
 You can read the value stored in a variable or update its value using assignment statements. For example:
 ```
